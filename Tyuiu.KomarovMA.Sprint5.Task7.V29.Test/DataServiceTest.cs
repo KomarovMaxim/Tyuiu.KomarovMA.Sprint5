@@ -1,0 +1,21 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using Tyuiu.KomarovMA.Sprint5.Task7.V29.Lib;
+using System.IO;
+namespace Tyuiu.KomarovMA.Sprint5.Task7.V29.Test
+{
+    [TestClass]
+    public class DataServiceTest
+    {
+        [TestMethod]
+        public void CheckedExistsFile()
+        {
+            string path = @"C:\Users\masan\SHARP\InPutDataFileTask7V29.txt";
+
+            FileInfo fileInfo = new FileInfo(path);
+            bool fileExists = fileInfo.Exists;
+            bool wait = true;
+            Assert.AreEqual(wait, fileExists);
+        }
+    }
+}

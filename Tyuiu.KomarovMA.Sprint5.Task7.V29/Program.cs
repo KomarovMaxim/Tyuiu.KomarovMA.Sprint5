@@ -13,13 +13,13 @@ namespace Tyuiu.KomarovMA.Sprint5.Task7.V29
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #5 | Выполнил: Кондраков А.А. | СМАРТб-23-1";
+            Console.Title = "Спринт #5 | Выполнил: Комаров М.А. | СМАРТб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый фай                         *");
+            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
             Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #27                                                             *");
-            Console.WriteLine("* Выполнил: Кондраков Александр Артемович | СМАРТб-23-1                   *");
+            Console.WriteLine("* Вариант #29                                                             *");
+            Console.WriteLine("* Выполнил: Комаров Максим Александрович | СМАРТб-23-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("***************************************************************************");
